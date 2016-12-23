@@ -306,18 +306,24 @@ p.form {
      max-width: 100%;
      display: block;
      max-height: 25rem;
+     height: 50%;
+     width: 50%;
  }
 
  img.clock {
      max-width: 100%;
      display: block;
      max-height: 25rem;
+     height: 50%;
+     width: 50%;
  }
 
  img.form {
      max-width: 100%;
      display: block;
      max-height: 25rem;
+     height: 50%;
+     width: 50%;
      
  }
 ul.slide_imgwrap li {
