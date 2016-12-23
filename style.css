@@ -19,9 +19,7 @@ a:hover, a:active {
     .header{
         float:right;
     }
-    .footer {
-        float:left;
-    }
+   
 
     
 }
@@ -305,18 +303,21 @@ p.form {
     max-width: 25%;
 }
  img.key {
-     max-width: 25%;
+     max-width: 100%;
      display: block;
+     max-height: 25rem;
  }
 
  img.clock {
-     max-width: 25%;
+     max-width: 100%;
      display: block;
+     max-height: 25rem;
  }
 
  img.form {
-     max-width: 25%;
+     max-width: 100%;
      display: block;
+     max-height: 25rem;
      
  }
 ul.slide_imgwrap li {
@@ -324,6 +325,7 @@ ul.slide_imgwrap li {
     list-style-type: none;
     display: inline-block;
     margin-left: 20px; 
+    
 }
 
 ul.slide_imgwrap p {
@@ -332,6 +334,10 @@ ul.slide_imgwrap p {
 
 ul.slide_imgwrap {
     display: inline;
+}
+
+li.form {
+    margin-bottom: 40px;
 }
 
 
