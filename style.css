@@ -5,7 +5,6 @@
     -moz-box-sizing:border-box;
 }
 
-
 a {
     color:#EBF5DF;
 }
@@ -92,8 +91,8 @@ header#header nav #primary li ul {
 /* below controls nav menu lines */
 header#header nav #primary li:hover,
 header#header nav #primary li.active {
-  border-color: #3B413C;
-  color: #3B413C;
+  border-color: #0CF574;
+  color: #0CF574;
   
 }
 
@@ -108,7 +107,7 @@ header#header nav #primary li.active ul {
 /* below gives menu color when hovering */
 header#header nav #primary li:hover > a,
 header#header nav #primary li.active > a {
-  color: #3B413C;
+  color: #0CF574;
 }
 
 /* controls menu bar sizing and layout */
@@ -136,7 +135,7 @@ footer a {
 }
 
 footer a:hover, a:active {
-    color: #3B413C;
+    color: #0CF574;
     text-decoration: none;
 }
 
@@ -151,6 +150,7 @@ hr {
     color: #3B413C;
     background-color: #3B413C;
     border: none;
+    width: 100rem;
 }
 
 /* what was here before */
@@ -306,17 +306,17 @@ p.form {
     max-width: 25%;
 }
  img.key {
-    
+     width: 100%;
      display: block;
  }
 
  img.clock {
-     
+     width: 100%;
      display: block;
  }
 
  img.form {
-     
+     width: 100%;
      display: block;
      
  }
@@ -324,8 +324,9 @@ ul.slide_imgwrap li {
     max-width: 25%;
     list-style-type: none;
     display: inline-block;
-    margin-left: 20px; 
-    
+    margin-left: 50px; 
+    vertical-align: top;
+    margin-top: 40px;
 }
 
 ul.slide_imgwrap p {
