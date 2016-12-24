@@ -217,7 +217,7 @@ p.title {
 /* About Me */
 
 img.me {
-    border-radius: 5%;
+    border-radius: 3%;
     height: 40%;
     width: 40%;
     margin-left: 150px;
@@ -309,17 +309,19 @@ p.form {
  img.key {
      width: 100%;
      display: block;
+     border-radius: 3%;
  }
 
  img.clock {
      width: 100%;
      display: block;
+     border-radius: 3%;
  }
 
  img.form {
      width: 100%;
      display: block;
-     
+     border-radius: 3%;
  }
 ul.slide_imgwrap li {
     max-width: 25%;
