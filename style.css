@@ -1,16 +1,47 @@
 
-*, :before, :after{
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
+.grid {
+    font-size: 0;
+    text-align: justify;
+
+    & > * {
+        display: inline-block;
+        font-size: medium;
+    }
+
+    &:after {
+        content: "";
+        display: none;
+        width: 100%;
+    }
+}
+
+@define-mixin grid_r $col, $width {
+        @media (min-width: $(width)px) {
+                .grid-$(col)-$(width) {
+                    & > * {
+                       width: calc(100 / $col)%;
+                    }
+            }
+    }
+}
+
+@mixin grid_r 2, 400;
+@mixin grid_r 3, 600;
+@mixin grid_r 4, 800;
+@mixin grid_r 6, 1000;
+
+
+
 a {
-    color:#C98D00;
+    color:#EBF5DF;
 }
 
 a:hover, a:active {
-    color:#DCB65C;
+    color:#3B413C;
     text-decoration: none; 
 }
 
@@ -56,18 +87,18 @@ a:hover, a:active {
 body {
   font-size: 150%;
   line-height: 1.8em;
-  background: #23212D;
+  background: #F0A202;
   height: 100%;
 }
 
 /* below controls nav menu & border above it */
 * header#header nav ul li {
-  border-top: 1px solid #C98D00;
+  border-top: 1px solid #EBF5DF;
   list-style-type: none;
   display: block;
 }
 nav a {
-    color: #C98D00;
+    color: #EBF5DF;
 }
 
 ul#primary.row {
@@ -79,7 +110,7 @@ ul#primary.row {
 /* below controls content of each page */
 
 div.inner.cover {
-    color: #C98D00;
+    color: #EBF5DF;
     margin-right: 60px;
     margin-left: 60px;
 }
@@ -91,8 +122,8 @@ header#header nav #primary li ul {
 /* below controls nav menu lines */
 header#header nav #primary li:hover,
 header#header nav #primary li.active {
-  border-color: #DCB65C;
-  color: #DCB65C;
+  border-color: #3B413C;
+  color: #3B413C;
   
 }
 
@@ -107,7 +138,7 @@ header#header nav #primary li.active ul {
 /* below gives menu color when hovering */
 header#header nav #primary li:hover > a,
 header#header nav #primary li.active > a {
-  color: #DCB65C;
+  color: #3B413C;
 }
 
 /* controls menu bar sizing and layout */
@@ -130,12 +161,12 @@ footer {
 }
 
 footer a {
-    color: #C98D00;
+    color: #EBF5DF;
     display: inline;
 }
 
 footer a:hover, a:active {
-    color: #DCB65C;
+    color: #3B413C;
     text-decoration: none;
 }
 
@@ -147,8 +178,8 @@ hr {
     margin-bottom: 10px;
     margin-top: 10px;
     height: 1px;
-    color: #C98D00;
-    background-color: #C98D00;
+    color: #3B413C;
+    background-color: #3B413C;
     border: none;
 }
 
@@ -239,7 +270,7 @@ div.about-me {
 
 p.right-lead {
    font-size: large;
-   color: #C98D00;
+   color: #EBF5DF;
    max-width: 400px;
    display: block;
    text-align: left;
@@ -278,8 +309,8 @@ div.dev-back {
 /* Makes Title of skills large */
 li.back, li.front {
     font-size: large;
-    border-bottom: 1px solid #C98D00;
-    border-top: 1px solid #C98D00;
+    border-bottom: 1px solid #EBF5DF;
+    border-top: 1px solid #EBF5DF;
 }
 
 /* Works Page */
@@ -324,6 +355,7 @@ ul.slide_imgwrap li {
     list-style-type: none;
     display: inline-block;
     margin-left: 20px; 
+    
 }
 
 ul.slide_imgwrap p {
@@ -332,6 +364,7 @@ ul.slide_imgwrap p {
 
 ul.slide_imgwrap {
     display: inline;
+    
 }
 
 
@@ -343,7 +376,7 @@ ul.slide_imgwrap {
 /* Contact Page */
 
 ul.links li {
-    color: #C98D00;
+    color: #EBF5DF;
     font-size: 250%;
     list-style-type: none;
     display: inline-block;
