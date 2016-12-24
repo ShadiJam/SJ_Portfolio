@@ -1,6 +1,8 @@
 
-*, *:before, *:after {
+*, :before, :after {
     box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
 }
 
 
@@ -8,7 +10,7 @@ a {
     color:#EBF5DF;
 }
 
-a:hover, a:active {
+a:hover, a:active, a:focus {
     color:#3B413C;
     text-decoration: none; 
 }
@@ -32,7 +34,7 @@ a:hover, a:active {
         top:0;
     }
     
-    .header,.container, .inner.cover {
+    .header,.container, .inner.cover, {
         width:100%;
         min-height: 100%;
         position: relative;
