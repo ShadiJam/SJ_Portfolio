@@ -10,7 +10,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-    color:#0CF574;
+    color:#B55E6C;
     text-decoration: none; 
 }
 
@@ -91,8 +91,8 @@ header#header nav #primary li ul {
 /* below controls nav menu lines */
 header#header nav #primary li:hover,
 header#header nav #primary li.active {
-  border-color: #0CF574;
-  color: #0CF574;
+  border-color: #B55E6C;
+  color: #B55E6C;
   
 }
 
@@ -107,7 +107,7 @@ header#header nav #primary li.active ul {
 /* below gives menu color when hovering */
 header#header nav #primary li:hover > a,
 header#header nav #primary li.active > a {
-  color: #0CF574;
+  color: #B55E6C;
 }
 
 /* controls menu bar sizing and layout */
@@ -135,7 +135,7 @@ footer a {
 }
 
 footer a:hover, a:active {
-    color: #0CF574;
+    color: #B55E6C;
     text-decoration: none;
 }
 
@@ -371,14 +371,4 @@ h1.cover-heading {
 }
 
 
-/*
-slide_img-inner {
-    background-image: url(images/form-main.png);
-    background-image: url(images/clock-pink.png);
-    background-image: url(images/clock-purple.png);
-    background-image: url(https://scontent.fhou1-2.fna.fbcdn.net/v/t1.0-9/12112445_887676661286672_7276285292127940867_n.jpg?oh=9fd1d8b9e0bcac318cf458554dd0908d&oe=5866B660);
-    background-image: url(https://scontent.fhou1-2.fna.fbcdn.net/v/t1.0-9/10269513_737576889629984_663488553481260588_n.jpg?oh=0f446fd03189244e5c0f5e23d2a5505a&oe=58725183);
-*/  
 
-
-/* http://tympanus.net/Development/MultiLayoutSlideshow/ for slideshow css and html*/
