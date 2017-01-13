@@ -10,7 +10,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-    color:#B55E6C;
+    color:#B5394E;
     text-decoration: none; 
 }
 
@@ -91,8 +91,8 @@ header#header nav #primary li ul {
 /* below controls nav menu lines */
 header#header nav #primary li:hover,
 header#header nav #primary li.active {
-  border-color: #B55E6C;
-  color: #B55E6C;
+  border-color: #B5394E;
+  color: #B5394E;
   
 }
 
@@ -107,7 +107,7 @@ header#header nav #primary li.active ul {
 /* below gives menu color when hovering */
 header#header nav #primary li:hover > a,
 header#header nav #primary li.active > a {
-  color: #B55E6C;
+  color: #B5394E;
 }
 
 /* controls menu bar sizing and layout */
@@ -135,7 +135,7 @@ footer a {
 }
 
 footer a:hover, a:active {
-    color: #B55E6C;
+    color: #B5394E;
     text-decoration: none;
 }
 
